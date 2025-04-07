@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="style.css">
+    <link 
+        (rel="stylesheet", href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css", integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy", crossorigin="anonymous")
+    />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Bakery App</h1>
+            <form>
+                <input
+                    type="text" 
+                    placeholder="Search for recipes..."
+                    class="searchBox"
+                />
+                <button type="Submit" class="searchBtn">Search</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="recipe-container">
+                <h2>Search your favourite recipes...</h2>
+            </div>
+            <div class="recipe-details">
+                <button type="button" class="recipe-close-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                </button>
+                <div class="recipe-details-content"></div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
+
